@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box, #bottom{
+        display: flex;
+        margin: auto;
+        height: 400px;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #box > div{
+        display: inline-flex;
+    }
+    hr{
+        width: 200px;
+        color: black;
+    }
+    #bottom2{
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+        margin-left: 30px;
+        height: 250px;
+        width: 100%;
+    }
+    .bottom2b > div{
+        display: inline-block;
+        margin-left: 10px;
+        text-align: center;
+    }
+   .bottom2a > div{
+    display: inline-block;
+        margin-left: 20px;
+        text-align: left;
+        height: 40%;
+    
+   }
+   .bottom2ab > div{
+    display: inline-block;
+        margin-left: 30px;
+        text-align: left;
+        height: 40%;
+    
+   }
+   .bottom2aa{
+       display:inline-flex;
+   }
+
+   #bottom3{
+       display:grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: repeat(1, 4fr);
+       height: 600px;
+       width: 100%;
+       list-style-type: none;
+   }
+   #bottom4{
+       display: flex;
+   }
+</style>
+<body>
+    <div id="container">
+        <img src="https://mamaearthp.imgix.net/wysiwyg/desktop_home_img.png?auto=format"
+        height="320px";
+        width="100%";
+        >
+        <center><h3>Super Safe Standards</h3></center> <br>
+        <div id="box">
+            <div class="box1">
+                <img src="https://mamaearthp.imgix.net/wysiwyg/dermatology-tested-100x100.png?auto=format&fit=100%2C100&ssl=1"
+                height="100px"
+                width="100px"
+                />
+                <div>
+                    <h4>Dermatologically Tested</h4>
+                <p>We ensure each product is tested<br>
+                clinically on the sensitive human skin<br>
+                to ensure that it is not allergic </p>
+                </div>
+                
+            </div>
+
+            <div class="box2">
+                
+                <img src="https://mamaearthp.imgix.net/wysiwyg/fda-100x100.jpg?auto=format&fit=100%2C100&ssl=1"
+                height="100px"
+                width="100px"/>
+                <div><h4>FDA Approved</h4>
+                    <p>MamaEarth is FDA approved, which<br>
+                        means we are 100% safe to be used<br> for babies as well as mamas.</p>
+                    </div>
+            <div class="box3">
+                <img src="https://mamaearthp.imgix.net/wysiwyg/msafe-100x100.jpg?auto=format&fit=100%2C100&ssl=1"
+                height="100px"
+                width="100px"/>
+                <div><h4>Made Safe certified</h4>
+                    <p>The MADE SAFE (Mode with SAFE<br>
+                    ingredients) seal means that<br> a product is literally made with Safe
+                    ingredients.</p></div>
+               
+            </div>
+        </div>
+        <center><h2>What Our Customer Says</h2></center>
+        <hr>
+        <div id="commentbox">
+        </div>
+        <br>
+        <div id="bottom">
+            
+          <div class="box1">
+              <img src="https://mamaearthp.imgix.net/wysiwyg/mobile-truck.png?auto=format"
+              height="40px"
+              width="40px">
+              <h4>Free Shipping</h4>
+              <p>On Order's Above Rs. 399</p>
+          </div>
+          <div class="box2">
+            <img src="https://mamaearthp.imgix.net/wysiwyg/Group_81512x.png?auto=format"
+            height="40px"
+            width="40px">
+            <h4>COD Available</h4>
+            <p>@ Rs. 40 Per Order</p>
+         </div>
+         <div class="box3">
+            <p>Have Queries or Concerns?</p>
+            <br>
+            <input id="contactus" value="Contact Us" type="button">
+           </div>
+           </div>
+          <div id="bottom2">
+         <div class="bottom2a">
+           <div class="bottom2aa">
+               <P>Payment</P>
+               <img src="https://mamaearthp.imgix.net/wysiwyg/noun_trusted_27146262x_6Ekja92.png?auto=format"
+               height = 20px
+               width = 20px/>
+               <p>100% Payment Protection, Easy Return Policy</p>
+            </div>
+            <br>
+          <div class="bottom2ab">
+           <div class="2aaa">
+               <img src="https://mamaearthp.imgix.net/wysiwyg/visa2x.png?auto=format&fit=scale"
+               height="30px"
+            width="60px"/>
+           </div>
+           <div class="2aab">
+            <img src="https://mamaearthp.imgix.net/wysiwyg/master_card2x.png?auto=format&fit=scale"
+            height="30px"
+            width="60px"/>
+           </div>
+           <div class="2aac">
+            <img src="https://mamaearthp.imgix.net/wysiwyg/american_express2x.png?auto=format&fit=scale"
+            height="30px"
+            width="60px"/>
+           </div>
+           <div class="2aad">
+            <img src="https://mamaearthp.imgix.net/wysiwyg/rupay2x.png?auto=format&fit=scale"
+            height="30px"
+            width="60px"/>
+           </div>
+           <div class="2aad">
+            <img src="https://mamaearthp.imgix.net/wysiwyg/net_banking2x.png?auto=format&fit=scale"
+            height="30px"
+            width="60px"/>
+           </div>
+           </div>
+           <div class="bottom2b">
+           <div class="2ba">
+               <img src="https://mamaearthp.imgix.net/wysiwyg/dermatology-tested-100x1002x.png?auto=format"
+               height="50px"
+               width="50px"/>
+               <p>Dermatologically Tested</p>
+           </div>
+           <div class="2bb">
+            <img src="https://mamaearthp.imgix.net/wysiwyg/fda-100x1002x.png?auto=format"
+            height="50px"
+            width="50px"/>
+            <p>FDA Approved</p>
+           </div>
+           <div class="2bc">
+            <img src="https://mamaearthp.imgix.net/wysiwyg/MadeSafeImages13Jan/madesafe13janlogo.png?auto=format"
+            height="50px"
+            width="50px"/>
+            <p>Mode Safe certified</p>
+           </div>
+         </div>
+       </div>
+       <div id="bottom3">
+           <div class="links">
+               <h4>USEFUL LINKS</h4>
+               <ul>
+                <li><a href="https://example.com">Privacy Policy</a></li>
+                <li><a href="mailto:m.bluth@example.com">Returns</a></li>
+                <li><a href="tel:+123456789">Terms & Conditions</a></li>
+                <li><a href="https://example.com">Terms & Conditions-Cashback</a></li>
+                <li><a href="mailto:m.bluth@example.com">Faq's</a></li>
+                <li><a href="tel:+123456789">We're Safe</a></li>
+                <li><a href="https://example.com">Track Orders</a></li>
+                <li><a href="mailto:m.bluth@example.com">Contact Us</a></li>
+                <li><a href="tel:+123456789">Sitemap</a></li>
+                <li><a href="tel:+123456789">About Us</a></li>
+              </ul>
+           </div>
+
+        <div class="categories">
+            <h4>CATEGORIES</h4>
+            <ul>
+             <li><a href="https://example.com">Baby</a></li>
+             <li><a href="mailto:m.bluth@example.com">Beauty</a></li>
+             <li><a href="tel:+123456789">Hair</a></li>
+             <li><a href="https://example.com">Face</a></li>
+             <li><a href="mailto:m.bluth@example.com">Body</a></li>
+             <li><a href="mailto:m.bluth@example.com">Gift Pack</a></li>
+           </ul>
+        </div>
+
+        <div class="account">
+            <h4>MY ACCOUNT</h4>
+            <ul>
+             <li><a href="https://example.com">Account</a></li>
+             <li><a href="mailto:m.bluth@example.com">Orders</a></li>
+             <li><a href="tel:+123456789">Addresses</a></li>
+           </ul>
+        </div>
+
+        <div class="picture">
+            <img src="https://mamaearthp.imgix.net/wysiwyg/Best-Brand500x5002x.png?auto=format"
+            height="200px"
+            width="100px"/>
+        </div>
+       </div>
+       <div id="bottom4">
+           <div class="heart">
+            <h3>SHOW US SOME <img src="https://cdn.pixabay.com/photo/2014/03/25/16/24/heart-296983__480.png" height="30px" width="30px"> ON SOCIAL MEDIA</h3>
+           </div>
+          <div class="social">
+            
+            
+          </div>
+           <div class="endmessage">
+               <h4>@ 2022 Honasa Consumer Pvt. Ltd. All Rights Reserved</h4>
+           </div>
+       </div>
+    </div>
+</body>
+</html>

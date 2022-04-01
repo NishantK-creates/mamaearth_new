@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container {
+        padding: 3%;
+        height:500px;
+        width: 350px;
+        border: 1px black;
+        text-align: center;
+        margin: auto;
+        
+    }
+    button {
+        height:35px;
+        width: 120px;
+        color: white;
+        background-color: rgb(67, 162, 226);
+        border-radius: 5px;
+        border-style: none;
+    }
+    button:hover {
+        height:35px;
+        width: 120px;
+        color: white;
+        background-color: rgb(32, 90, 129);
+        border-radius: 5px;
+        border-style: none;
+    }
+</style>
+<body>
+    <div id="container">
+        <h3>My Cart</h3>
+        <img src="https://mamaearthp.imgix.net/wysiwyg/bags2x.png?auto=format"
+        height="200px"
+        width="200px">
+        <h2>Your cart is empty!</h2>
+        <h5>It's a good day to buy the items you saved for later</h5>
+        <button  onclick="shopnow()"   type="submit" >SHOP NOW</button>
+    </div>
+</body>
+</html>
+
+
+
+<script>
+     function shopnow() {
+         window.location.href="allproducts.html";
+     }
+</script>
